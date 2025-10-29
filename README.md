@@ -1,0 +1,37 @@
+# Newton Fractal
+
+## Overview
+This project visualizes Newton's fractal for the complex function:
+
+f(z) = z^n − 1
+
+It uses ISPC to parallelize the computation across CPU vector lanes for improved performance.  
+Rendering and user interaction are implemented using SFML 3.0.
+
+## Requirements
+- CMake 3.15 or newer
+- C++20 compatible compiler (GCC, Clang)
+- ISPC 1.28 or newer
+- SFML 3.0.2
+
+## Building the Project
+
+### Using CLion
+1. Open the project directory in CLion.
+2. Ensure that ISPC is available in the system PATH.
+3. Build and run the project directly from the IDE.
+
+### Using Terminal
+1. Generate build files:
+```bash
+cmake -S . -B cmake-build-debug -DCMAKE_BUILD_TYPE=Release
+```
+
+2. Compile:
+```bash
+cmake --build cmake-build-debug --config Release
+```
+
+The resulting executable should be located in: cmake-build-debug/Newton_Fractal
+
+> Note: This project has been tested and is intended to be built on Linux.
