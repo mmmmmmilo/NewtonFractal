@@ -45,3 +45,11 @@ cmake --build cmake-build-debug --config Release
 The resulting executable should be located in: cmake-build-debug/Newton_Fractal
 
 > Note: This project has been tested and is intended to be built on Linux.
+
+## Gallery
+<p align="center">
+<img width="4096" height="4096" alt="Newton_Fractal_3" src="https://github.com/user-attachments/assets/39ae75dd-c206-4491-840f-ce85531c94a2" />
+</p>
+
+
+
