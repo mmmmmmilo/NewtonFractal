@@ -48,9 +48,9 @@ The resulting executable should be located in: cmake-build-debug/Newton_Fractal
 
 ## Showcase
 <p align="center">
-<img width="4096" height="4096" alt="Newton_Fractal_3" src="https://github.com/user-attachments/assets/fd6fdab3-8485-4c0a-b833-75bcd3770385" />
-<img width="4096" height="4096" alt="Newton_Fractal_8" src="https://github.com/user-attachments/assets/527c95c5-d3ff-4581-867c-fa8fb1a4e20c" />
-<img width="4096" height="4096" alt="Newton_Fractal_128" src="https://github.com/user-attachments/assets/c807f980-a4d9-4899-9889-c66f97d175f2" />
+  <img src="https://github.com/user-attachments/assets/fd6fdab3-8485-4c0a-b833-75bcd3770385" width="32%" alt="Newton_Fractal_3" />
+  <img src="https://github.com/user-attachments/assets/527c95c5-d3ff-4581-867c-fa8fb1a4e20c" width="32%" alt="Newton_Fractal_8" />
+  <img src="https://github.com/user-attachments/assets/c807f980-a4d9-4899-9889-c66f97d175f2" width="32%" alt="Newton_Fractal_128" />
 </p>
 
 
