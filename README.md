@@ -56,7 +56,7 @@ cmake --build .
 
 ### Windows
 
-Ensure you have your compiler environment correctly configured (e.g., using the "x64 Native Tools Command Prompt for VS").
+Ensure you have your compiler environment correctly configured.
 
 Generate build files and compile:
 
