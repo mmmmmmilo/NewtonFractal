@@ -33,9 +33,11 @@ The coordinate of each pixel is mapped to a complex number $z_0$. The renderer t
 
 ### Prerequisites
 Ensure the following tools are installed and accessible in your system's `PATH`:
-* **C++ Compiler:** MSVC (Windows), GCC 11+, or Clang 13+ (Linux) with C++20 support.
+* **C++ Compiler:** GCC 11+ or Clang 13+ with C++20 support.
 * **CMake:** Version 3.19 or newer.
 * **ISPC Compiler:** Intel Implicit SPMD Program Compiler (version 1.28+).
+
+>Platform Support Note: This project is natively developed and tested on Linux. Windows compilation is not officially supported due to strict dependencies on Unix-like build environments and native package managers.
 
 ### Linux
 Install required dependencies for windowing and graphics (required by SFML). On Fedora, you can use:
@@ -54,26 +56,11 @@ cmake --build .
 
 ```
 
-### Windows
-
-Ensure you have your compiler environment correctly configured.
-
-Generate build files and compile:
-
-```cmd
-mkdir build
-cd build
-cmake ..
-cmake --build . --config Release
-
-```
-
 ### Running the Application
 
 The executable and its required resources (e.g., fonts) are generated in the build directory. Run the application directly from there:
 
 * **Linux:** `./Newton_Fractal`
-* **Windows:** `.\Release\Newton_Fractal.exe`
 
 
 ## Showcase
